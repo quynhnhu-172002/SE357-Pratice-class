@@ -31,14 +31,13 @@
 - *Cost*: Look for tools that are free or have low fees.
 # 4. How can tools enable distributed, global requirements engineering activities? What are the drawbacks in this regard?
 ### Benefits
-- *Workflow Definition*: Tools enable the definition of workflows for requirements, including states, roles, and state transitions, which can be configured to suit specific project needs.
-- *Automated Trace Generation*: Tools can automatically create bidirectional traces between related artifacts, enhancing traceability and simplifying the process.
-- *User-Specific Trace Types*: Authorized users can define custom trace types, providing flexibility in traceability management.
-- *Suspect Traces*: Tools can highlight traces associated with requirements undergoing changes, helping to identify potential issues.
-- *Long-Term Archiving*: Data within the tool can be archived in a format accessible outside of the tool, ensuring data retention.
+- *Requirements Elicitation, Analysis, Specification, Verification, Validation, and Management*: The tool can assist in gathering, analyzing, specifying, verifying, validating requirements, and managing them.
+- *Collaboration and Communication Among Stakeholders*: The tool can facilitate collaboration and communication among stakeholders, regardless of their locations and time zones.
+- *Traceability and Consistency of Requirements*: The tool has the capability to support tracking and maintaining the consistency of requirements throughout the development process.
+- *Integration with Other Tools and Systems*: The tool can be integrated with other tools and systems, such as configuration management, testing, modeling, etc.
 ### Drawbacks
-- *Complex Workflows*: Overly complex workflows may lead to confusion and errors, while frequent changes can disrupt established processes and necessitate additional training.
-- *Automated Trace Generation Issues*: Automated trace generation may occasionally create unnecessary traces, potentially causing information overload.
-- *User-Specific Trace Types Challenges*: The overuse or misuse of custom trace types can complicate traceability and lead to confusion. Managing numerous custom trace types may become challenging.
-- *Suspect Traces Problems*: False positives in suspect trace detection can result in unnecessary reviews and updates, potentially causing delays. Relying solely on automated suspect trace detection may lead to overlooking genuine issues.
-- *Long-Term Archiving Considerations*: Archiving can be resource-intensive and may require significant storage space. Retrieving archived data may be time-consuming, and compatibility with future tools and formats is not guaranteed.
+- *Can't Suport Complex Workflows*
+- *Potential Technical Issues*: The tool may encounter technical issues such as network latency, security breaches, data loss, etc.
+- *Training using tools for team*
+
+
