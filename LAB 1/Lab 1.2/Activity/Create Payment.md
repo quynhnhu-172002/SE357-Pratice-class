@@ -1,54 +1,46 @@
 @startuml
-!theme cerulean
 
 skinparam handwritten true
 
-title Activity Diagram: Quy trình Tạo Thanh Toán Học Phí
+title Activity Diagram: Create Payment
 
 start
 
-:Chọn Học Viên;
+:Select Student (Student);
+:Select Payment Type (Payment Type);
+:Select Course Category (Course Category);
+:Enter Total Paid Amount (Paid Amount);
+:Enter Payment Date (Payment Date);
 
-if (Học Viên có trên hệ thống chưa?) then (yes)
-  :Tạo Học Viên Mới;
-  :Nhập Thông Tin Học Viên;
-  if (Thông tin hợp lệ?) then (yes)
-    :Thêm Học Viên Mới;
+:Select Payment Type (Payment Type);
+
+if (Payment Type is equal to "Cashholder") then (yes)
+  :Create Cashholder Payment (Cashholder);
+  :Select Split Payment (if needed?);
+  if (Split Payment is needed) then (yes)
+    :Enter Number of Installments;
   else (no)
-    :Sửa Thông Tin;
   endif
 else (no)
-  :Chọn Học Viên Tồn Tại;
-endif
-
-:Tạo thanh toán mới ;
-
-  :Nhập Thông Tin Loại Thanh Toán;
-  if (Thông tin hợp lệ?) then (yes)
-    :Thêm Loại Thanh Toán Mới;
+  if (Payment Type is equal to "Deposit") then (yes)
+    :Create Deposit Payment (Deposit);
   else (no)
-    :Sửa Thông Tin;
-
-endif
-
-:Chọn Loại Khóa Học (Course Category);
-:Nhập Tổng Tiền Đã Thanh Toán (Paid Amount);
-:Chọn Ngày Thanh Toán (Payment Date);
-
-if (Loại Thanh Toán là Deposit) then (yes)
-  :Tạo Thanh Toán Deposit;
-  :Lưu Thông Tin Thanh Toán;
-else (no)
-  if (Loại Thanh Toán là Placement Test) then (yes)
-    :Tạo Thanh Toán Phí Thi Thử;
-    :Lưu Thông Tin Thanh Toán;
-  else (no)
-    if (Loại Thanh Toán là Demo) then (yes)
-      :Tạo Thanh Toán Phí Học Thử;
-      :Lưu Thông Tin Thanh Toán;
+    if (Payment Type is equal to "Placement Test") then (yes)
+      :Create Placement Test Payment (Placement Test);
+    else (no)
+      if (Payment Type is equal to "Delay Fee") then (yes)
+        :Create Delay Fee Payment (Delay Fee);
+      else (no)
+        if (Payment Type is equal to "Book/Gift") then (yes)
+          :Create Book/Gift Payment (Book/Gift);
+        endif
+      endif
     endif
   endif
 endif
+
+:Save Payment Information;
+
 
 stop
 
