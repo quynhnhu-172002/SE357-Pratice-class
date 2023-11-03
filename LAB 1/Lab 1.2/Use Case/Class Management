@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+!define ICONURL https://www.plantuml.com/g?icon=
+
+actor "User" as User
+rectangle "ONLINE CLASS MANAGEMENT" {
+  usecase (Import Students\nfrom Excel) as Import
+  usecase (Search Class\nby Keyword) as Search
+  usecase (Filter Classes\nby Default) as Filter
+  usecase (Create New\nClass) as Create
+  usecase (View Class\nList) as ViewList
+  usecase (View Class\nDetails) as ViewDetails
+  usecase (Edit Class\nInformation) as Edit
+  usecase (Delete Class) as Delete
+  usecase (Enroll Students\nin Class) as Enroll
+  usecase (Retain Students) as Retain
+  usecase (Assign Teacher/TA/\nClassroom to Class) as Assign
+  usecase (Create Google Meet\nLink for Class) as CreateMeet
+  usecase (Update Class\nStatus) as UpdateStatus
+}
+
+User --> Import 
+User --> Search 
+User --> Filter 
+User --> Create 
+User --> ViewList 
+User --> ViewDetails
+User --> Edit
+User --> Delete
+User --> Enroll 
+User --> Retain 
+User --> Assign
+User --> CreateMeet 
+User --> UpdateStatus 
+
+
+@enduml
