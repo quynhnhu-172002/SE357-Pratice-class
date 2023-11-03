@@ -1,22 +1,23 @@
-@startuml Activity_DangNhap
+@startuml Activity_Login
+
 !define START circle
 !define END circle
 !define ACTIVITY_START start
 !define ACTIVITY_END end
 
-title Activity Đăng nhập
+title Activity Log In 
 
 start
 
-:Người dùng nhập thông tin đăng nhập;
-:Hệ thống kiểm tra thông tin đăng nhập;
-if (Thông tin đúng?) then (Đúng)
-  :Người dùng được đăng nhập;
-  -[Hệ thống]-|Hệ thống xác thực tài khoản|;
-  :Mở trang chủ;
-else (Sai)
-  :Hiển thị thông báo lỗi;
-  -[Hệ thống]-|Hệ thống xác thực tài khoản|;
+:User enters login information;
+:System verifies login information;
+if (Information is correct?) then (Correct)
+  :User is logged in;
+  -[System]-|System authenticates the account|;
+  :Open homepage;
+else (Incorrect)
+  :Display error message;
+  -[System]-|System authenticates the account|;
   stop
 endif
 
