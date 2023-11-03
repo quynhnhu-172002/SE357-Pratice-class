@@ -1,0 +1,24 @@
+@startuml UseCaseDiagram
+left to right direction
+actor Admin as A
+
+rectangle "ELOS System" {
+  A --> (STUDENT MANAGEMENT)
+  A --> (CALL MANAGEMENT)
+  A --> (EMAIL MANAGEMENT)
+  A --> (SMS MANAGEMENT)
+  A --> (TASK MANAGEMENT)
+  A --> (TEACHER MANAGEMENT)
+  A --> (LESSON MANAGEMENT)
+  A --> (CLASS MANAGEMENT)
+  A --> (COURSE FEES MANAGEMENT)
+  A --> (GRADEBOOK MANAGEMENT)
+  A --> (ATTENDANCE MANAGEMENT)
+  A --> (FINANCE MANAGEMENT)
+  A --> (PAYMENT MANAGEMENT)
+  A --> (INVOICE MANAGEMENT)
+  A --> (RECEIPT MANAGEMENT)
+  A --> (REPORT MANAGEMENT)
+  A --> (USER MANAGEMENT)
+}
+@enduml
