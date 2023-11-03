@@ -1,4 +1,4 @@
-#What criteria should be used in choosing an appropriate requirements engineering tool? -h1
+# 1. What criteria should be used in choosing an appropriate requirements engineering tool?
 - **Organization of Requirements**: The tool should support the structured organization of requirements, including metadata, attributes, and the ability to reuse requirements across projects.
 - **Reporting and Query Capabilities**
 - **Internal Checks**: The tool should provide mechanisms to enforce consistency, identify dependencies, and maintain a history of changes, ensuring the integrity of requirements.
@@ -16,3 +16,10 @@
 - **Agile, CI/CD, and DevOps Support**
 - **Intelligent Support**: Features like AI-driven recommendation and analysis can improve the quality of requirements and decision-making.
 **Scalability**: Ensure that the tool can grow with the organization's evolving needs.
+# 2. Are there any drawbacks to using certain tools in requirements engineering activities?
+- **Increasingly Complex and Difficult to Use**: The tool market is rapidly evolving, and many tools are becoming increasingly complex and challenging to use. This complexity can add to the intricacies of the requirements process and may require significant investment in staff training.
+- **Lack of Validation Features**: Some tools still lack essential validation features, such as checking for consistency, correctness, and completeness in requirements. This can result in gaps in the quality assurance of requirements.
+- **Rapidly Changing Tool Market**: The tool market for requirements engineering is subject to rapid changes, with continuous development of tools. This can lead to instability in managing requirements and necessitate frequent updates and adjustments.
+- **Integration and Compatibility Challenges**: Requirements engineering tools may not be compatible with the existing work environment or may pose integration challenges with other tools and systems within the organization. This can disrupt workflow and reduce work efficiency.
+- **Lack of Intelligent Features and Support**: Some requirements engineering tools may lack intelligent features and support, reducing the effectiveness of the requirements management process.
+
