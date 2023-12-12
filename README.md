@@ -5,6 +5,7 @@
 **Contributors**:
 
 1/Leader: Đoàn Trần Quỳnh Như - 20521722 - https://github.com/quynhnhu-172002
+
 2/ Member: Nguyễn Huỳnh Thanh Trúc - 20522063 - https://github.com/20522063
 
 **Supervisors**:
