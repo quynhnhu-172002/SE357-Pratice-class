@@ -11,7 +11,7 @@
 
 1/ MSc. Nguyen Trinh Dong - Email: dongnt@uit.edu.vn
 
-2/ MSc. Vu Tuan Hai - Github
+2/ MSc. Vu Tuan Hai - https://github.com/vutuanhai237
 
 **Description**: 
 Supports automation of processes, standardization of services, optimal resources, instant report updates, and fastest decision support.
