@@ -16,6 +16,7 @@
 **Description**: 
 Supports automation of processes, standardization of services, optimal resources, instant report updates, and fastest decision support.
 ELOS brings a comprehensive and professional software solution for managing and caring for customers for online education institutions. It optimizes customer care and supports the management of interactions among Sales, Customer Service, and Administration departments on a single platform. It provides a user-friendly interface for different user groups (Teachers, Staff, Students, Parents, and Management) along with unified operational processes.
+
 **How to use**:
 + Log in: use 
 + Receipt/Invoice Management: ELOS allows for the management and storage of receipts/invoices related to class registrations. Users can create, view, and manage these receipts/invoices.
